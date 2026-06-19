@@ -117,36 +117,37 @@ body {
     z-index: 1000;
   }
 
-  .block-cyan {
-    background: linear-gradient(135deg, #00f0ff 0%, #0088aa 100%);
-    box-shadow: 0 0 8px #00f0ff, 0 0 16px rgba(0, 240, 255, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
-  }
+}
 
-  .block-magenta {
-    background: linear-gradient(135deg, #ff00ff 0%, #aa0088 100%);
-    box-shadow: 0 0 8px #ff00ff, 0 0 16px rgba(255, 0, 255, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
-  }
+.block-cyan {
+  background: linear-gradient(135deg, #00f0ff 0%, #0088aa 100%);
+  box-shadow: 0 0 8px #00f0ff, 0 0 16px rgba(0, 240, 255, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
 
-  .block-yellow {
-    background: linear-gradient(135deg, #ffff00 0%, #aaaa00 100%);
-    box-shadow: 0 0 8px #ffff00, 0 0 16px rgba(255, 255, 0, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
-  }
+.block-magenta {
+  background: linear-gradient(135deg, #ff00ff 0%, #aa0088 100%);
+  box-shadow: 0 0 8px #ff00ff, 0 0 16px rgba(255, 0, 255, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
 
-  .block-blue {
-    background: linear-gradient(135deg, #0066ff 0%, #0033aa 100%);
-    box-shadow: 0 0 8px #0066ff, 0 0 16px rgba(0, 102, 255, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
-  }
+.block-yellow {
+  background: linear-gradient(135deg, #ffff00 0%, #aaaa00 100%);
+  box-shadow: 0 0 8px #ffff00, 0 0 16px rgba(255, 255, 0, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
 
-  .block-green {
-    background: linear-gradient(135deg, #00ff66 0%, #00aa44 100%);
-    box-shadow: 0 0 8px #00ff66, 0 0 16px rgba(0, 255, 102, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
-  }
+.block-blue {
+  background: linear-gradient(135deg, #0066ff 0%, #0033aa 100%);
+  box-shadow: 0 0 8px #0066ff, 0 0 16px rgba(0, 102, 255, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
 
-  .block-selected {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff, inset 0 0 15px rgba(255, 255, 255, 0.5);
-    border: 2px solid #fff;
-  }
+.block-green {
+  background: linear-gradient(135deg, #00ff66 0%, #00aa44 100%);
+  box-shadow: 0 0 8px #00ff66, 0 0 16px rgba(0, 255, 102, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+.block-selected {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff, inset 0 0 15px rgba(255, 255, 255, 0.5);
+  border: 2px solid #fff;
 }
 
 @keyframes rainbow-border {
